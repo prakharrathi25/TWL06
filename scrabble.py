@@ -55,7 +55,7 @@ def display(scores):
 ''' MAIN FUNCTION '''
 def main():
     # Input for the letters
-    ana = str(input("Enter the String of characters: "))
+    ana = str(input("Enter the String(characters accepted): "))
     combinations = randomize(ana)
     # Creating a dictionary of words
     word_dictionary = valid(combinations)
