@@ -1,6 +1,11 @@
 import itertools, twl
 # Function to create a set of all the possible combinations of letters
 def randomize(word):
+    """
+    :param word: The word for which combinations to be created
+    
+    :return comb: set of all possible letter combinations from word
+    """
     t = []
     comb = set()
     for i in range(2, len(word) + 1):
